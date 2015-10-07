@@ -18,38 +18,38 @@ Arduino 5V pin connects to Relay VCC  <br>
 
 Arduino Pin A0 connects to Thermistor 1 for the water temperature sensor system <br>
 Arduino Pin A1 connects to Thermistor 2 for the cooling fan sensor system  (if equipped) <br>
-Arduino Pin A2 connects to the water sensor (if equipped) <br>
+Arduino Pin A2 connects to the water sensor (if equipped) <br><br><br>
 
 
-All settings can be adjusted in the config section of the Arduino sketch. It would be recommended to not change anything other then the Pins and temperature settings. 
+All settings can be adjusted in the config section of the Arduino sketch. It would be recommended to not change anything other then the Pins and temperature settings. <br>
 
-// ############## CONFIG SECTION ##############
+// ############## CONFIG SECTION ##############<br>
 
-// resistance at 25 degrees C
-define THERMISTORNOMINAL 10000      
-// temp. for nominal resistance (almost always 25 C)
-define TEMPERATURENOMINAL 25   
-// how many samples to take and average, more takes longer
-// but is more 'smooth'
-define NUMSAMPLES 5
-// The beta coefficient of the thermistor (usually 3000-4000)
-define BCOEFFICIENT 3950
-// the value of the 'other' resistor
-define SERIESRESISTOR 10000   
-define BAUD_RATE 9600
-define TERM_CHAR '\n'
-define BUF_LEN   128
-define hotgascycle 480000 //480000
-define hotgascycleoff 10000
+// resistance at 25 degrees C<br>
+define THERMISTORNOMINAL 10000     <br>
+// temp. for nominal resistance (almost always 25 C)<br>
+define TEMPERATURENOMINAL 25   <br>
+// how many samples to take and average, more takes longer<br>
+// but is more 'smooth'<br>
+define NUMSAMPLES 5<br>
+// The beta coefficient of the thermistor (usually 3000-4000)<br>
+define BCOEFFICIENT 3950<br>
+// the value of the 'other' resistor<br>
+define SERIESRESISTOR 10000   <br>
+define BAUD_RATE 9600<br>
+define TERM_CHAR '\n'<br>
+define BUF_LEN   128<br>
+define hotgascycle 480000 //480000<br>
+define hotgascycleoff 10000<br>
 
-//Pins
-define RELAY1  6                        
-define RELAY2  7
-define THERMISTOR1PIN A0        
-define THERMISTOR2PIN A1
-define WATERSENSORPIN A2
-define WATERSENSOR waterSensor
+//Pins<br>
+define RELAY1  6  <br>                     
+define RELAY2  7<br>
+define THERMISTOR1PIN A0 <br>       
+define THERMISTOR2PIN A1<br>
+define WATERSENSORPIN A2<br>
+define WATERSENSOR waterSensor<br>
 
-int lowerTemperatureControl=15.0;
-int upperTemperatureControl=18.0;
-bool waterSensor=false;
+int lowerTemperatureControl=15.0;<br>
+int upperTemperatureControl=18.0;<br>
+bool waterSensor=false;<br>
