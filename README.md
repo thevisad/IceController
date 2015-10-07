@@ -2,7 +2,8 @@
   -------------
 Ice - The El Cheapo Laser chiller controller
  -------------------------------------------
-  <br> <br>
+ Forum URL: http://www.hngamers.com/threads/ice-the-ice-machine-laser-chiller.829/<br><br>
+ 
  Hardware Requirements:  <br>
  You may substitute the appropriate cheaper alternative for these devices.  <br>
  
