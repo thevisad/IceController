@@ -3,6 +3,13 @@
 Ice - The El Cheapo Laser chiller controller
  -------------------------------------------
  
+ Hardware Requirements: 
+ You may substitute the appropriate cheaper alternative for these devices. 
+ 
+ http://www.sainsmart.com/arduino-pro-mini.html
+ http://www.sainsmart.com/atmel-atmega328-au-mini-usb-cable-full-compatible-for-arduino-nano-3-0-a021.html
+ 
+ 
 I designed this controller firmware to work with the Arduino nano based on the ATMega328P processor. <br>
 Any Arduino that is based off of this system will work out of the box.  <br>
 It's possible that others will work with little to no modification.  <br>
