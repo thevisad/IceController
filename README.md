@@ -26,29 +26,29 @@ All settings can be adjusted in the config section of the Arduino sketch. It wou
 // ############## CONFIG SECTION ##############
 
 // resistance at 25 degrees C
-#define THERMISTORNOMINAL 10000      
+define THERMISTORNOMINAL 10000      
 // temp. for nominal resistance (almost always 25 C)
-#define TEMPERATURENOMINAL 25   
+define TEMPERATURENOMINAL 25   
 // how many samples to take and average, more takes longer
 // but is more 'smooth'
-#define NUMSAMPLES 5
+define NUMSAMPLES 5
 // The beta coefficient of the thermistor (usually 3000-4000)
-#define BCOEFFICIENT 3950
+define BCOEFFICIENT 3950
 // the value of the 'other' resistor
-#define SERIESRESISTOR 10000   
-#define BAUD_RATE 9600
-#define TERM_CHAR '\n'
-#define BUF_LEN   128
-#define hotgascycle 480000 //480000
-#define hotgascycleoff 10000
+define SERIESRESISTOR 10000   
+define BAUD_RATE 9600
+define TERM_CHAR '\n'
+define BUF_LEN   128
+define hotgascycle 480000 //480000
+define hotgascycleoff 10000
 
 //Pins
-#define RELAY1  6                        
-#define RELAY2  7
-#define THERMISTOR1PIN A0        
-#define THERMISTOR2PIN A1
-#define WATERSENSORPIN A2
-#define WATERSENSOR waterSensor
+define RELAY1  6                        
+define RELAY2  7
+define THERMISTOR1PIN A0        
+define THERMISTOR2PIN A1
+define WATERSENSORPIN A2
+define WATERSENSOR waterSensor
 
 int lowerTemperatureControl=15.0;
 int upperTemperatureControl=18.0;
