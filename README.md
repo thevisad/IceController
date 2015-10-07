@@ -2,27 +2,22 @@
   -------------
 Ice - The El Cheapo Laser chiller controller
  -------------------------------------------
+  <br> <br>
+ Hardware Requirements:  <br>
+ You may substitute the appropriate cheaper alternative for these devices.  <br>
  
- Hardware Requirements: 
- You may substitute the appropriate cheaper alternative for these devices. 
- 
- http://www.sainsmart.com/arduino-pro-mini.html
- http://www.sainsmart.com/atmel-atmega328-au-mini-usb-cable-full-compatible-for-arduino-nano-3-0-a021.html
+ http://www.sainsmart.com/arduino-pro-mini.html <br>
+ http://www.sainsmart.com/atmel-atmega328-au-mini-usb-cable-full-compatible-for-arduino-nano-3-0-a021.html <br> <br>
  
  
 I designed this controller firmware to work with the Arduino nano based on the ATMega328P processor. <br>
 Any Arduino that is based off of this system will work out of the box.  <br>
-It's possible that others will work with little to no modification.  <br>
-
-
-
+It's possible that others will work with little to no modification.  <br> <br> <br>
 
 Arduino Pin D6 connects to IN1 on the Relay <br>
 Arduino Pin D7 connects to IN2 on the Relay <br>
 Arduino Ground pin connects to Relay ground  <br>
 Arduino 5V pin connects to Relay VCC  <br>
-
-
 Arduino Pin A0 connects to Thermistor 1 for the water temperature sensor system <br>
 Arduino Pin A1 connects to Thermistor 2 for the cooling fan sensor system  (if equipped) <br>
 Arduino Pin A2 connects to the water sensor (if equipped) <br><br><br>
